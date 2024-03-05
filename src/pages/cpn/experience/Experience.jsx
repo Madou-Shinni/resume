@@ -6,7 +6,7 @@ const Experience = () => {
 
 
     return <div>
-        <Header icon={{name:'ExperienceIcon',fill:'#000'}} title={'工作经历'}>
+        <Header icon={{name:'ExperienceIcon',color:'#000'}} title={'工作经历'}>
             {/*<DynamicIcon name={'ExperienceIcon'} fill={'#000'} />*/}
             {/*<h2 className="text-lg mb-2 mt-4">工作经历</h2>*/}
         </Header>
