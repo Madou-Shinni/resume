@@ -13,27 +13,27 @@ const Header = () => {
         <HeaderInfoWrapper>
             <HeaderInfo>
                 <DynamicIcon name={'EnvelopeIcon'} />
-                <a className="text-sm">ohcanikissu@gmail.com</a>
+                <a className="text-sm cursor-pointer">ohcanikissu@gmail.com</a>
             </HeaderInfo>
 
             <HeaderInfo>
                 <DynamicIcon name={'LinkIcon'} />
-                <a className="text-sm">ohcanikissu@gmail.com</a>
+                <a href={'http://resume.ricardoli.one'} className="text-sm cursor-pointer">resume.ricardoli.one</a>
             </HeaderInfo>
 
             <HeaderInfo>
                 <DynamicIcon name={'PhoneIcon'} />
-                <a className="text-sm">ohcanikissu@gmail.com</a>
+                <a className="text-sm cursor-pointer">xxxxxxxx</a>
             </HeaderInfo>
 
             <HeaderInfo>
                 <DynamicIcon name={'GithubIcon'} fill={'#000'} />
-                <a className="text-sm">ohcanikissu@gmail.com</a>
+                <a href={'https://github.com/Madou-Shinni'} className="text-sm cursor-pointer">Madou-Shinni</a>
             </HeaderInfo>
 
             <HeaderInfo>
                 <DynamicIcon name={'WechatIcon'} fill={'#000'} />
-                <a className="text-sm">ohcanikissu@gmail.com</a>
+                <a className="text-sm cursor-pointer">xxxxxxxx</a>
             </HeaderInfo>
         </HeaderInfoWrapper>
     </div>
