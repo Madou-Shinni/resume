@@ -1,6 +1,7 @@
 import Header from "@/components/header/Header.jsx";
 import ContentWrapper from "@/pages/cpn/experience/cpn/content/ContentWrapper.jsx";
 import Content from "@/pages/cpn/experience/cpn/content/Content.jsx";
+import experienceProps from "@/pages/cpn/experience/data.js"
 
 const Experience = () => {
 
@@ -15,7 +16,9 @@ const Experience = () => {
         <hr className={'my-4'}/>
 
         <ContentWrapper>
-            <Content />
+            {experienceProps.zh.companies.map((item,index)=>(
+                <Content key={index} name={item.name} position={item.position} time={item.time} content={item.content} />
+            ))}
         </ContentWrapper>
     </div>
 }
