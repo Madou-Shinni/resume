@@ -11,13 +11,6 @@ const props = {
             'ElasticSearch',
             'MQ',
             'Dtm',
-            'React',
-            'Redux',
-            'Mobx',
-            'HTML',
-            'CSS',
-            'JavaScript',
-            'Tailwind CSS',
         ],
         contents: [
             '深入理解并熟练开发基于Gin-Vue-Admin的应用',
@@ -26,7 +19,6 @@ const props = {
             '了解性能调优',
             '熟悉docker docker-compose',
             '能熟练使用git',
-            '能熟练使用react开发web应用',
         ]
     }
 }
